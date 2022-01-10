@@ -1,0 +1,24 @@
+---
+layout: page
+---
+
+<h1 class="h2 text-center pt-3 pb-5">Schedule</h1>
+
+{% for post in site.posts %}
+    <div class="row justify-content-center">
+        <div class="col-3">
+            <img class="img-fluid rounded-circle mb-3 px-md-3 px-lg-4" alt="{{ post.author }}" src="{{ post.image }}">
+        </div>
+        <div class="col-7">
+            <h2 class="h4"><a class="link-dark text-decoration-none" href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h3 class="h5">{% if post.author_url %}<a class="link-dark text-decoration-none" href="{{ post.author_url }}">{% endif %}{{ post.author }} &middot; {{ post.institution }}{% if post.author_url %}</a>{% endif %}</h3>
+            <h3 class="h6">{{ post.date | date: "%F" }} &middot; {{ post.time | default: site.default_time }}</h3>
+            <p class="my-3">
+                {% if post.video %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.video }}">Video</a>{% endif %}
+                <a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.url | relative_url }}">Abstract</a>
+                {% if post.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.slides | relative_url }}">Slides</a>{% endif %}
+                {% if post.paper %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.paper | relative_url }}">Paper</a>{% endif %}
+            </p>
+        </div>
+    </div>
+{% endfor %}

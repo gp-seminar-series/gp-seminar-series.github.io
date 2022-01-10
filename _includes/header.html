@@ -1,0 +1,13 @@
+<header id="nav-header" class="container position-relative">
+  <nav id="nav-menu-container" class="text-right navbar-light bg-white border rounded position-absolute">
+    <input type="checkbox" id="nav-trigger" class="d-none"/>
+    <label for="nav-trigger" id="nav-trigger-label" class="m-2 d-inline-block navbar-toggler-icon">
+    </label>
+
+    <div id="nav-menu" class="d-none">
+      {% for title_link in site.header_menu %}
+          <a class="link-dark text-decoration-none text-underline-hover ml-3 p-2 d-block" href="{{ title_link.link }}">{{ title_link.title | escape }}</a>
+      {% endfor %}
+    </div>
+  </nav>
+</header>

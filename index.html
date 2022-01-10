@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div id="home" class="bg-light">
+<div class="container text-center py-5">
+<!-- <img alt="Logo" src="/assets/neurips.svg"> -->
+<h1 class="my-4">
+<span class="h3">Virtual Seminar Series on</span>
+<br>
+Gaussian Processes, Spatiotemporal Modeling,<br>and Decision-making Systems
+</h1>
+<h2 class="h5 my-4">Thursdays &middot; biweekly &middot; 15:00 UTC</h2>
+<p class="my-4">
+<a class="btn btn-outline-dark btn-sm fw-bold mx-1" href="/#">Registration</a>
+<a class="btn btn-outline-dark btn-sm fw-bold mx-1" href="/instructions">Instructions</a>
+</p>
+</div>
+</div>
+
+
+<div class="bg-white">
+<div id="seminar" class="container py-4">
+{% capture seminar %}{% include_relative seminar.html %}{% endcapture %}
+{{ seminar | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
+</div>
+</div>
+
+<div class="bg-light">
+<div id="schedule" class="container py-4">
+{% capture schedule %}{% include_relative schedule.html %}{% endcapture %}
+{{ schedule | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
+</div>
+</div>
+
+<div class="bg-white">
+<div id="previous" class="container py-4">
+{% capture previous %}{% include_relative previous.html %}{% endcapture %}
+{{ previous | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
+</div>
+</div>
+
+<div class="bg-light">
+<div class="container py-4">
+{% capture organizers %}{% include_relative organizers.html %}{% endcapture %}
+{{ organizers | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
+</div>
+</div>

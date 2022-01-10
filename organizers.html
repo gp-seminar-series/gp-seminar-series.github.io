@@ -1,0 +1,21 @@
+---
+published: false
+---
+
+{% assign organizers = "Alexander Terenin<>Alexander Terenin<>Alexander Terenin<>Alexander Terenin" | split: "<>" %} 
+{% assign institutions = "University of Cambridge<>University of Cambridge<>University of Cambridge<>University of Cambridge" | split: "<>" %}
+{% assign urls = "https://avt.im/<>https://avt.im/<>https://avt.im/<>https://avt.im/" | split: "<>" %}
+
+<h1 class="h2 text-center pt-3 pb-5">Organizers</h1>
+
+<div class="row justify-content-center text-center px-3 px-lg-5 mx-xl-5">
+    {% for organizer in organizers %}
+    <div class="col-5 col-sm-4 col-md-3 mx-sm-1 mx-md-0">
+        <a class="link-dark text-decoration-none" href="{{ urls[forloop.index0] }}">
+            <img class="img-fluid rounded-circle mb-3 px-md-3 px-lg-4" alt="Organizer {{ forloop.index }}" src="/assets/organizer_1.jpg">
+            <h2 class="h5 my-1">{{ organizer }}</h2>
+            <h3 class="h6 my-1">{{ institutions[forloop.index0] }}</h3>
+        </a>
+    </div>
+    {% endfor %}
+</div>
