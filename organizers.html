@@ -2,9 +2,9 @@
 published: false
 ---
 
-{% assign organizers = "Alexander Terenin<>Alexander Terenin<>Alexander Terenin<>Alexander Terenin" | split: "<>" %} 
-{% assign institutions = "University of Cambridge<>University of Cambridge<>University of Cambridge<>University of Cambridge" | split: "<>" %}
-{% assign urls = "https://avt.im/<>https://avt.im/<>https://avt.im/<>https://avt.im/" | split: "<>" %}
+{% assign organizers = "Alexander Terenin<>Geoff Pleiss<>Elizaveta Semenova<>Zi Wang" | split: "<>" %} 
+{% assign institutions = "University of Cambridge<>Columbia University<>University of Oxford<>Google Research" | split: "<>" %}
+{% assign urls = "https://avt.im/<>https://geoffpleiss.com<>https://elizavetasemenova.github.io<>https://ziw.mit.edu" | split: "<>" %}
 
 <h1 class="h2 text-center pt-3 pb-5">Organizers</h1>
 
@@ -12,7 +12,7 @@ published: false
     {% for organizer in organizers %}
     <div class="col-5 col-sm-4 col-md-3 mx-sm-1 mx-md-0">
         <a class="link-dark text-decoration-none" href="{{ urls[forloop.index0] }}">
-            <img class="img-fluid rounded-circle mb-3 px-md-3 px-lg-4" alt="Organizer {{ forloop.index }}" src="/assets/organizer_1.jpg">
+            <img class="img-fluid rounded-circle mb-3 px-md-3 px-lg-4" alt="Organizer {{ forloop.index }}" src="/assets/organizer_{{ forloop.index }}.jpg">
             <h2 class="h5 my-1">{{ organizer }}</h2>
             <h3 class="h6 my-1">{{ institutions[forloop.index0] }}</h3>
         </a>
