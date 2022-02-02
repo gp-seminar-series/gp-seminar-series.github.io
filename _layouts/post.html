@@ -3,12 +3,12 @@ layout: page
 ---
 
 <div class="row justify-content-center">
-    <div class="col-3">
-        <img class="img-fluid rounded-circle mb-3 px-md-3 px-lg-4" alt="{{ page.author }}" src="{{ page.image }}">
+    <div class="col-12 col-sm-3">
+        <img class="img-fluid rounded-circle mb-3 px-4 px-sm-0 px-md-2 px-xl-4" alt="{{ page.author }}" src="{{ page.image }}">
     </div>
-    <div class="col-7">
-        <h2 class="h4"><a class="link-dark text-decoration-none" href="{{ page.url }}">{{ page.title }}</a></h2>
-        <h3 class="h5">{% if page.author_url %}<a class="link-dark text-decoration-none" href="{{ page.author_url }}">{% endif %}{{ page.author }} &middot; {{ page.institution }}{% if page.author_url %}</a>{% endif %}</h3>
+    <div class="col-12 col-sm-9">
+        <h2 class="h4"><a class="text-decoration-none" href="{{ page.url }}">{{ page.title }}</a></h2>
+        <h3 class="h5">{% if page.author_url %}<a class="text-decoration-none" href="{{ page.author_url }}">{% endif %}{{ page.author }} &middot; {{ page.institution }}{% if page.author_url %}</a>{% endif %}</h3>
         <h3 class="h6">{{ page.date | date: "%F" }} &middot; {{ page.time | default: site.default_time }}</h3>
         <p class="my-3">
             {% if page.video %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.video }}">Video</a>{% endif %}

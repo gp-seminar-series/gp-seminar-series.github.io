@@ -8,11 +8,11 @@ published: false
 
 <h1 class="h2 text-center pt-3 pb-5">Organizers</h1>
 
-<div class="row justify-content-center text-center px-3 px-lg-5 mx-xl-5">
+<div class="row justify-content-center text-center">
     {% for organizer in organizers %}
-    <div class="col-5 col-sm-4 col-md-3 mx-sm-1 mx-md-0">
+    <div class="col-12 col-sm-3 mb-5">
         <a class="link-dark text-decoration-none" href="{{ urls[forloop.index0] }}">
-            <img class="img-fluid rounded-circle mb-3 px-md-3 px-lg-4" alt="Organizer {{ forloop.index }}" src="/assets/organizer_{{ forloop.index }}.jpg">
+            <img class="img-fluid rounded-circle mb-3 px-5 px-sm-1 px-md-3 px-xl-5" alt="{{ organizer }}" src="{{ organizer | downcase | replace_first: ' ', '-' | prepend: '/assets/organizers/' | relative_url }}.jpg">
             <h2 class="h5 my-1">{{ organizer }}</h2>
             <h3 class="h6 my-1">{{ institutions[forloop.index0] }}</h3>
         </a>
