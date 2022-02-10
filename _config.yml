@@ -8,7 +8,7 @@ plugins:
 future: true
 default_day: "Monday"
 default_time: "16:00 UTC"
-schedule_limit: 2
+schedule_limit: 4
 previous_limit: 3
 header_menu:
     -
