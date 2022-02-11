@@ -17,7 +17,7 @@ layout: page
         <h3 class="h6">{{ page.date | date: "%F" }} &middot; {{ page.time | default: site.default_time }}</h3>
         <p class="my-3">
             {% if page.video %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.video }}">Video</a>{% endif %}
-            <a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.url | relative_url }}">Abstract</a>
+            {% assign content = post.content | strip %}{% unless content == "" %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.url | relative_url }}">Abstract</a>{% endunless %}
             {% if page.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.slides | relative_url }}">Slides</a>{% endif %}
             {% if page.paper %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.paper | relative_url }}">Paper</a>{% endif %}
         </p>

@@ -20,7 +20,7 @@ layout: page
             <h3 class="h6">{{ post.date | date: "%F" }} &middot; {{ post.time | default: site.default_time }}</h3>
             <p class="my-3">
                 {% if post.video %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.video }}">Video</a>{% endif %}
-                <a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.url | relative_url }}">Abstract</a>
+                {% assign content = post.content | strip %}{% unless content == "" %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.url | relative_url }}">Abstract</a>{% endunless %}
                 {% if post.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.slides | relative_url }}">Slides</a>{% endif %}
                 {% if post.paper %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.paper | relative_url }}">Paper</a>{% endif %}
             </p>
