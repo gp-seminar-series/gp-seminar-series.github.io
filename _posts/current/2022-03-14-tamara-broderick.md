@@ -17,10 +17,10 @@ Bayesian methods are often computationally intractable for problems
 of even moderate dimension p. Our key insight is that many
 hierarchical models of practical interest admit a particular Gaussian
 process (GP) representation; the GP allows us to capture the posterior
-with a vector of O(p) kernel hyper-parameters rather than O(p^2)
+with a vector of $O(p)$ kernel hyper-parameters rather than $O(p^2)$
 interactions and main effects. With the implicit representation, we
 can run Markov chain Monte Carlo (MCMC) over model hyperparameters in
-time and memory linear in p per iteration. We focus on
+time and memory linear in $p$ per iteration. We focus on
 sparsity-inducing models; on datasets with a variety of
 covariate behaviors, we show that our method: (1) reduces runtime by orders of
 magnitude over naive applications of MCMC, (2) provides lower Type I
