@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div class="row justify-content-center">
-    <div class="col-12 col-sm-3">
+    <div class="col-12 col-sm-3 text-center">
         {% assign default_image_url = page.path | remove_first: "_posts/" | remove_first: "current/" | remove_first: "archive/" | replace: ".md", ".jpg" | prepend: "assets/speakers/" %}
         <img class="img-fluid rounded-circle mb-3 px-4 px-sm-0 px-md-2 px-xl-4" alt="{{ page.author }}" src="{{ page.image | default: default_image_url | relative_url }}">
     </div>
