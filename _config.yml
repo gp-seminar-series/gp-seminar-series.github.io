@@ -1,5 +1,5 @@
-title: Gaussian Process Seminar
-description: Virtual Seminar Series on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems
+title: Virtual Seminar Series on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems
+description: An online seminar series to bring researchers working in Gaussian processes and related areas together
 markdown: kramdown
 plugins:
   - jekyll-feed
