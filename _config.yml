@@ -3,9 +3,11 @@ description: An online seminar series to bring researchers working in Gaussian p
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
 future: true
+short_title: Gaussian Process Seminar Series
 default_day: "Monday"
 default_time: "16:00 UTC"
 schedule_limit: 4
