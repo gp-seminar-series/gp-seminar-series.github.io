@@ -7,7 +7,7 @@ layout: page
 Seminars take place on **{{ site.default_day }} at {{ site.default_time }}** on Zoom, and are also livestreamed on YouTube.
 
 - **Zoom**. Please register in advance by signing up for our mailing list using the [registration link](/registration). The Zoom link will be sent in the weekly email.
-- **YouTube**. Seminars can be accessed at the YouTube channel (no registration required), which also includes all past recorded seminars.
+- **YouTube**. Seminars can be accessed at the YouTube channel (no registration required), which also includes past recorded seminars.
 
 # Format 
 
