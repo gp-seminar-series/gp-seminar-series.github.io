@@ -4,6 +4,7 @@ author: Tamara Broderick
 institution: MIT
 paper: https://proceedings.mlr.press/v97/agrawal19a.html
 author_url: https://tamarabroderick.com
+video: https://www.youtube.com/watch?v=2N6ozc3cUZo
 highlight: true
 ---
 

@@ -14,6 +14,7 @@ published: false
                 <h2 class="h4">{% if post.author_url %}<a class="text-decoration-none" href="{{ post.author_url }}">{% endif %}{{ post.author }} &middot; {{ post.institution }}{% if post.author_url %}</a>{% endif %}</h2>
                 <h2 class="h5">{{ post.date | date: "%F" }} &middot; {{ post.time | default: site.default_time }}</h2>
                 <p class="my-3">
+                    {% if post.video %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.video }}">Video</a>{% endif %}
                     {% if post.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.slides | relative_url }}">Slides</a>{% endif %}
                     {% if post.paper %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.paper | relative_url }}">Paper</a>{% endif %}
                 </p>
