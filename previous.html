@@ -10,9 +10,10 @@ published: false
 {% for post in site.categories.current %}
     {% capture date %}{{ post.date | date: "%s" | plus: )}}{% endcapture %}
     {% if date < now %}
+        {% assign default_image_url = post.path | remove_first: "_posts/" | remove_first: "current/" | remove_first: "archive/" | replace: ".md", ".jpg" | prepend: "assets/speakers/" %}
+        {% assign default_slides_url = post.path | remove_first: "_posts/" | remove_first: "current/" | remove_first: "archive/" | replace: ".md", ".pdf" | prepend: "assets/slides/" | relative_url %}
         <div class="row justify-content-center">
             <div class="col-12 col-sm-3 text-center">
-                {% assign default_image_url = post.path | remove_first: "_posts/" | remove_first: "current/" | remove_first: "archive/" | replace: ".md", ".jpg" | prepend: "assets/speakers/" %}
                 <img class="img-fluid rounded-circle mb-3 px-5 px-sm-1 px-md-3 px-xl-5" alt="{{ post.author }}" src="{{ post.image | default: default_image_url | relative_url }}">
             </div>
             <div class="col-12 col-sm-9">
@@ -25,7 +26,7 @@ published: false
                 <p class="my-3">
                     {% if post.video %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.video }}">Video</a>{% endif %}
                     {% assign content = post.content | strip %}{% unless content == "" %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.url | relative_url }}">Abstract</a>{% endunless %}
-                    {% if post.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.slides | relative_url }}">Slides</a>{% endif %}
+                    {% if post.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.slides_url | default: default_slides_url }}">Slides</a>{% endif %}
                     {% if post.paper %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.paper | relative_url }}">Paper</a>{% endif %}
                 </p>
             </div>

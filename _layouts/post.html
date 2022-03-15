@@ -2,9 +2,10 @@
 layout: page
 ---
 
+{% assign default_image_url = page.path | remove_first: "_posts/" | remove_first: "current/" | remove_first: "archive/" | replace: ".md", ".jpg" | prepend: "assets/speakers/" %}
+{% assign default_slides_url = page.path | remove_first: "_posts/" | remove_first: "current/" | remove_first: "archive/" | replace: ".md", ".pdf" | prepend: "assets/slides/" | relative_url %}        
 <div class="row justify-content-center">
     <div class="col-12 col-sm-3 text-center">
-        {% assign default_image_url = page.path | remove_first: "_posts/" | remove_first: "current/" | remove_first: "archive/" | replace: ".md", ".jpg" | prepend: "assets/speakers/" %}
         <img class="img-fluid rounded-circle mb-3 px-4 px-sm-0 px-md-2 px-xl-4" alt="{{ page.author }}" src="{{ page.image | default: default_image_url | relative_url }}">
     </div>
     <div class="col-12 col-sm-9">
@@ -18,7 +19,7 @@ layout: page
         <p class="my-3">
             {% if page.video %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.video }}">Video</a>{% endif %}
             {% assign content = post.content | strip %}{% unless content == "" %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.url | relative_url }}">Abstract</a>{% endunless %}
-            {% if page.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.slides | relative_url }}">Slides</a>{% endif %}
+            {% if page.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.slides_url | default: default_slides_url }}">Slides</a>{% endif %}
             {% if page.paper %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ page.paper | relative_url }}">Paper</a>{% endif %}
         </p>
         <p>
