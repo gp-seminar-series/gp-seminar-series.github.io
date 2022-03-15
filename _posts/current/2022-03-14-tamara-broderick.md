@@ -5,6 +5,7 @@ institution: MIT
 paper: https://proceedings.mlr.press/v97/agrawal19a.html
 author_url: https://tamarabroderick.com
 video: https://www.youtube.com/watch?v=2N6ozc3cUZo
+slides: true
 ---
 
 Discovering interaction effects on a response of interest is
