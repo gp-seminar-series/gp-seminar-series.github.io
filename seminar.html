@@ -18,7 +18,7 @@ published: false
                     {% if post.slides %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.slides | relative_url }}">Slides</a>{% endif %}
                     {% if post.paper %}<a class="btn btn-outline-dark btn-sm fw-bold mr-1" href="{{ post.paper | relative_url }}">Paper</a>{% endif %}
                 </p>
-                {{ post.content }}
+                {{ post.excerpt }}
             </div>
         </div>
     {% endif %}

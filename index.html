@@ -37,20 +37,20 @@ and Decision-making Systems
 </div>
 
 <div class="bg-light">
+<div id="previous" class="container py-4">
+{% capture previous %}{% include_relative previous.html %}{% endcapture %}
+{{ previous | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
+</div>
+
+<div class="bg-white">
 <div id="schedule" class="container py-4">
 {% capture schedule %}{% include_relative schedule.html %}{% endcapture %}
 {{ schedule | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
 </div>
 </div>
-
-<div class="bg-white">
-<!-- <div id="previous" class="container py-4">
-{% capture previous %}{% include_relative previous.html %}{% endcapture %}
-{{ previous | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
-</div>
 </div>
 
-<div class="bg-light"> -->
+<div class="bg-light">
 <div class="container py-4">
 {% capture organizers %}{% include_relative organizers.html %}{% endcapture %}
 {{ organizers | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
