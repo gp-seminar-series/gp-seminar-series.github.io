@@ -10,8 +10,8 @@ future: true
 short_title: Gaussian Process Seminar Series
 default_day: "Monday"
 default_time: "16:00 UTC"
-schedule_limit: 3
-previous_limit: 3
+schedule_limit: 2
+previous_limit: 2
 header_menu:
     -
         title: "Home"
