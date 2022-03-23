@@ -4,7 +4,7 @@ author: James Hensman
 institution: Amazon
 paper: http://proceedings.mlr.press/v119/dutordoir20a.html
 author_url: https://scholar.google.co.uk/citations?user=l8dX3ssAAAAJ&hl=en
-highlight: true
+video: https://www.youtube.com/watch?v=ZbCViEcnC-U
 ---
 
 Connections between deep learning and Gaussian process methods are emerging as a tool for understanding deep learning. The kernels involved are "spherically stationary": in this talk I'll illustrate where these spheres come from, and talk about how the spherical structure can be used for efficient inference in the Gaussian process analogues of wide deep networks. 
