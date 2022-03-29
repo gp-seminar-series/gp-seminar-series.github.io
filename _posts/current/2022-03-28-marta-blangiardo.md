@@ -3,7 +3,7 @@ title: Spatial and spatio-temporal models in the time of COVID-19
 author: Marta Blangiardo
 institution: Imperial College London
 author_url: http://www.envstats.org/
-highlight: true
+video: https://www.youtube.com/watch?v=qtiMMV2cSZ8
 ---
 
 In this talk I will present some recent work I have done on spatial and spatio-temporal modelling of mortality data during the COVID-19 pandemic.
