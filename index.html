@@ -4,30 +4,11 @@ image: /assets/banner.png
 ---
 
 <div id="home" class="bg-light">
-<div class="d-flex pt-5 mt-3">
-
-<div id="title-text" class="text-center w-auto mx-auto">
-<h1>
-<span class="h3">Virtual Seminar Series on</span>
-<br>
-Gaussian Processes,
-<br>
-Spatiotemporal Modeling,
-<br>
-and Decision-making Systems
-</h1>
-
-<h2 class="h5 my-4">{{ site.default_day }} &middot; Weekly &middot; {{ site.default_time }}</h2>
-<p class="my-4">
-<a class="btn btn-outline-dark btn-sm fw-bold mx-1" href="/registration">Registration</a>
-<a class="btn btn-outline-dark btn-sm fw-bold mx-1" href="/instructions">Instructions</a>
-<a class="btn btn-outline-dark btn-sm fw-bold mx-1" href="/youtube">YouTube</a>
-</p>
-</div>
-
+<div class="container pt-5">
+{% capture title %}{% include_relative title.html %}{% endcapture %}
+{{ title | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
 </div>
 </div>
-
 
 <div class="bg-white">
 <div id="seminar" class="container py-4">
