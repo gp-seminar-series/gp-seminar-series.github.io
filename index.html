@@ -22,12 +22,12 @@ image: /assets/banner.png
 {% capture previous %}{% include_relative previous.html %}{% endcapture %}
 {{ previous | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
 </div>
+</div>
 
 <div class="bg-white">
 <div id="schedule" class="container py-4">
 {% capture schedule %}{% include_relative schedule.html %}{% endcapture %}
 {{ schedule | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
-</div>
 </div>
 </div>
 
