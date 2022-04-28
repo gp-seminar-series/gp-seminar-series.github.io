@@ -2,7 +2,6 @@
 author: Théo Galy-Fajou
 institution: Technische Universität Berlin
 author_url: https://theogf.github.io
-highlight: true
 title: Automated augmented conjugate inference for Gaussian processes and a Julia perspective on Gaussian Processes
 paper: https://proceedings.mlr.press/v108/galy-fajou20a.html
 video: https://www.youtube.com/watch?v=v2myelXvQmU
