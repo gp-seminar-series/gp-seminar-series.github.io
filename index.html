@@ -11,27 +11,28 @@ image: /assets/banner.png
 </div>
 
 <div class="bg-white">
-<!-- <div id="seminar" class="container py-4">
-{% capture seminar %}{% include_relative seminar.html %}{% endcapture %}
+<div id="seminar" class="container py-4">
+<!-- {% capture seminar %}{% include_relative seminar.html %}{% endcapture %} -->
+{% capture seminar %}{% include_relative announcement.html %}{% endcapture %}
 {{ seminar | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
 </div>
 </div>
 
-<div class="bg-light"> -->
+<div class="bg-light">
 <div id="previous" class="container py-4">
 {% capture previous %}{% include_relative previous.html %}{% endcapture %}
 {{ previous | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
 </div>
 </div>
 
-<!-- <div class="bg-white">
-<div id="schedule" class="container py-4">
+<div class="bg-white">
+<!-- <div id="schedule" class="container py-4">
 {% capture schedule %}{% include_relative schedule.html %}{% endcapture %}
 {{ schedule | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
 </div>
-</div> -->
+</div>
 
-<div class="bg-light">
+<div class="bg-light"> -->
 <div class="container py-4">
 {% capture organizers %}{% include_relative organizers.html %}{% endcapture %}
 {{ organizers | remove_first: "---" | remove_first: "published: false" | remove_first: "---" }}
