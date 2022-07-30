@@ -6,7 +6,7 @@
 
     <div id="nav-menu" class="d-none">
       {% for title_link in site.header_menu %}
-          <a class="link-dark text-decoration-none text-underline-hover ml-3 p-2 d-block" href="{{ title_link.link }}">{{ title_link.title | escape }}</a>
+          <a class="link-dark text-underline-hover ml-3 p-2 d-block" href="{{ title_link.link }}">{{ title_link.title | escape }}</a>
       {% endfor %}
     </div>
   </nav>

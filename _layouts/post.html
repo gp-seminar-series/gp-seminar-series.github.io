@@ -10,10 +10,10 @@ layout: page
     </div>
     <div class="col-12 col-sm-9">
         {% if page.title == page.author %}
-        <h2 class="h4"><a class="text-decoration-none" href="{{ page.url }}">{{ page.author }}</a> &middot; <a class="text-decoration-none" href="{{ page.author_url | default: page.url }}">{{ page.institution }}</a></h2>
+        <h2 class="h4"><a href="{{ page.url }}">{{ page.author }}</a> &middot; <a href="{{ page.author_url | default: page.url }}">{{ page.institution }}</a></h2>
         {% else %}
-        <h2 class="h4"><a class="text-decoration-none" href="{{ page.url }}">{{ page.title }}</a></h2>
-        <h3 class="h5"><a class="text-decoration-none" href="{{ page.author_url | default: page.url }}">{{ page.author }} &middot; {{ page.institution }}</a></h3>
+        <h2 class="h4"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+        <h3 class="h5"><a href="{{ page.author_url | default: page.url }}">{{ page.author }} &middot; {{ page.institution }}</a></h3>
         {% endif %}
         <h3 class="h6">{{ page.date | date: "%F" }} &middot; {{ page.time | default: site.default_time }}</h3>
         <p class="my-3">
