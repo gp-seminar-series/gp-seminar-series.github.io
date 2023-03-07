@@ -1,5 +1,5 @@
 ---
 title: Registration
 redirect_to:
-  - https://eepurl.com/hSsaRr
+  - https://groups.google.com/g/gp-seminar-series
 ---
