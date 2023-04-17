@@ -3,7 +3,7 @@ title: Gaussian processes at the Helm(holtz)
 author: David R. Burt
 institution: MIT
 author_url: https://davidrburt.github.io
-highlight: true
+video: https://www.youtube.com/watch?v=4MVQkG2WEJ0
 ---
 
 This talk will discuss the use of Gaussian process regression for prediction of ocean currents and identification of upwellings and downwellings in the ocean, both important tasks in oceanography. First, we will discuss a simple approach using a standard multi-output regression GP prior. We show limitations of this approach in terms of capturing known ocean physics, both empirically and theoretically. We then introduce a prior inspired by physical properties of fluid systems, the Helmholtz GP, and demonstrate that it overcomes the limitations of the more naive approach. We show on both simulated and real buoy observations that with limited data, the Helmholtz GP is able to produce as good or better current predictions and better able to identify upwellings and downwellings than the more naive GP prior.
