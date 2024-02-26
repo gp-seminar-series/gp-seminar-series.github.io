@@ -7,7 +7,7 @@ published: false
 
 {% capture now %}{{ "now" | date: "%s" | plus: 0 }}{% endcapture %}
 {% assign counter = 0 %}
-{% for post in site.categories.current %}
+{% for post in site.categories.archive %}
     {% capture date %}{{ post.date | date: "%s" | plus: )}}{% endcapture %}
     {% if date < now %}
         {% assign default_image_url = post.path | remove_first: "_posts/" | remove_first: "current/" | remove_first: "archive/" | replace: ".md", ".jpg" | prepend: "assets/speakers/" %}
