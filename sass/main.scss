@@ -1,0 +1,9 @@
+$color-primary: #3b528b;
+$color-primary-dark: lighten(#3b528b,30%);
+$color-link-hover: lighten;
+
+@import "../themes/academic-workshop/sass/main.scss";
+
+.header h1 {
+    max-width: 40rem !important;
+}

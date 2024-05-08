@@ -1,0 +1,16 @@
+base_url = "https://gp-seminar-series.github.io"
+compile_sass = true
+build_search_index = false
+generate_feed = false
+minify_html = true
+theme = "academic-workshop"
+
+[markdown]
+highlight_code = false
+smart_punctuation = true
+
+[extra]
+title = {tagline = "Virtual Seminar Series on", title = "Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems", subtitle = "Monday · Weekly · 16:00 UTC", url = true}
+banner = {extension = "svg", size = "fit-height", fade = true}
+buttons = [{name = "Registration", url = "/registration"}, {name="Instructions", url="/instructions"}, {name="YouTube", url="/youtube"}]
+header_pages = [{name = "Home", url = "/#home"},{name = "Seminars", url = "/#seminars"}, {name = "Registration", url = "/registration"}, {name="Instructions", url="/instructions"}, {name="YouTube", url="/youtube"}]

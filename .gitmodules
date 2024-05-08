@@ -1,0 +1,3 @@
+[submodule "themes/academic-workshop"]
+	path = themes/academic-workshop
+	url = https://github.com/aterenin/academic-workshop.git
