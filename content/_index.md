@@ -3,7 +3,7 @@ title = "Virtual Seminar Series on Gaussian Processes, Spatiotemporal Modeling, 
 +++
 
 
-# [Announcement: NeurIPS 2024 Workshop<br><span class="h3">December 14-15, 2022</span>](/neurips-2024/)
+# [Announcement: NeurIPS 2024 Workshop<br><span class="h3">December 14, 2022</span>](/neurips-2024/)
 
 ## Abstract 
 
@@ -13,7 +13,7 @@ Through the use of probability, Bayesian methods offer a powerful framework to a
 
 This workshop aims to bring together researchers from different but closely related areas, including Bayesian optimization, active learning, uncertainty quantification, Gaussian processes, spatiotemporal modeling, and sequential experimental design. We seek to foster a vibrant exchange of ideas, showcase successful applications, and prompt fruitful discussion to collaboratively tackle the emerging challenges and shape the future directions of Bayesian decision-making and uncertainty in the new era of ML and AI.
 
-## [Call for Papers: submit by August 29, 2024](/neurips-2024/)
+## [Call for Papers](/neurips-2024/)
 
 
 {{ new_block() }}
