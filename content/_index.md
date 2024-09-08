@@ -13,8 +13,6 @@ Through the use of probability, Bayesian methods offer a powerful framework to a
 
 This workshop aims to bring together researchers from different but closely related areas, including Bayesian optimization, active learning, uncertainty quantification, Gaussian processes, spatiotemporal modeling, and sequential experimental design. We seek to foster a vibrant exchange of ideas, showcase successful applications, and prompt fruitful discussion to collaboratively tackle the emerging challenges and shape the future directions of Bayesian decision-making and uncertainty in the new era of ML and AI.
 
-## [Call for Papers](/neurips-2024/)
-
 
 {{ new_block() }}
 
