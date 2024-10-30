@@ -3,7 +3,7 @@ title = "Virtual Seminar Series on Gaussian Processes, Spatiotemporal Modeling, 
 +++
 
 
-# [Announcement: NeurIPS 2024 Workshop<br><span class="h3">December 14, 2022</span>](/neurips-2024/)
+# [Announcement: NeurIPS 2024 Workshop<br><span class="h3">December 14, 2024</span>](/neurips-2024/)
 
 ## Abstract 
 
