@@ -20,7 +20,7 @@ Join our [mailing list](/instructions/) to learn more about virtual seminars and
         ["Alexander Terenin","Cornell University"],
         ["Natalie Maus","University of Pennsylvania"],
         ["Renato Berlingheiri","MIT"],
-        ["Zi Wang","Google Research"],
+        ["Zi Wang","Google DeepMind"],
     ],
     urls = [
         "https://avt.im/",

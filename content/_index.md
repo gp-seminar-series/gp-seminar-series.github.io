@@ -29,7 +29,7 @@ title = "Virtual Seminar Series on Bayesian Decision-making and Uncertainty"
         ["Alexander Terenin","Cornell University"],
         ["Natalie Maus","University of Pennsylvania"],
         ["Renato Berlingheiri","MIT"],
-        ["Zi Wang","Google Research"],
+        ["Zi Wang","Google DeepMind"],
     ],
     urls = [
         "https://avt.im/",
