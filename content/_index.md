@@ -39,4 +39,4 @@ title = "Virtual Seminar Series on Bayesian Decision-making and Uncertainty"
     ],
     image_dir = "organizers") }}
 
-{{ button(name = "Alumni", url = "organizers") }}
+{{ button(name = "About", url = "about") }}
