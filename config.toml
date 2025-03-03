@@ -10,7 +10,7 @@ highlight_code = false
 smart_punctuation = true
 
 [extra]
-title = {tagline = "Virtual Seminar Series on", title = "Bayesian Decision-making and Uncertainty", subtitle = "Monday · Weekly · 16:00 UTC", url = true}
+title = {tagline = "Virtual Seminar Series on", title = "Bayesian Decision-making and Uncertainty", subtitles = ["Monday · Weekly · 16:00 UTC"], url = true}
 banner = {extension = "svg", size = "fit-height", fade = true}
 buttons = [{name = "Registration", url = "/registration"}, {name="Instructions", url="/instructions"}, {name="YouTube", url="/youtube"}, {name="Workshops", url="/workshops"}]
 header_pages = [{name = "Home", url = "/#home"},{name = "Seminars", url = "/#seminars"}, {name = "Registration", url = "/registration"}, {name="Instructions", url="/instructions"}, {name="YouTube", url="/youtube"}]

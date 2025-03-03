@@ -1,1 +1,1 @@
-{{ config.extra.title.subtitle | split(pat = ' · ') | nth(n = 0) }}
+{{ config.extra.title.subtitles | first | split(pat = ' · ') | nth(n = 0) }}
