@@ -1,5 +1,5 @@
 +++
-title = "Virtual Seminar Series on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems"
+title = "Virtual Seminar Series on Bayesian Decision-making and Uncertainty"
 +++
 
 # Instructions

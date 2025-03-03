@@ -4,6 +4,9 @@ $color-link-hover: lighten;
 
 @import "../themes/academic-workshop/sass/main.scss";
 
-.header h1 {
+.header {
     max-width: 40rem !important;
+}
+#home {
+    text-wrap: wrap !important;
 }

@@ -1,26 +1,6 @@
 +++
-title = "Virtual Seminar Series on Bayesian Decision-making and Uncertainty"
+title = "Organizers"
 +++
-
-
-# Upcoming Seminar
-
-{{ highlights(section_name = "seminars") }}
-
-
-
-{{ new_block() }}
-
-
-# Seminars
-
-{{ list(section_name = "seminars") }}
-
-{{ button(name = "All seminars", url = "seminars")}}
-
-
-{{ new_block() }}
-
 
 # Organizers
 
@@ -39,4 +19,19 @@ title = "Virtual Seminar Series on Bayesian Decision-making and Uncertainty"
     ],
     image_dir = "organizers") }}
 
-{{ button(name = "Alumni", url = "organizers") }}
+
+{{ new_block() }}
+
+
+# Alumni
+
+{{ grid(
+    text = [
+        ["Geoff Pleiss","Columbia University","2022-2023"],
+        ["Elizaveta Semenova","University of Oxford","2022-2023"],
+    ],
+    urls = [
+        "https://geoffpleiss.com/",
+        "https://www.elizaveta-semenova.com",
+    ],
+    image_dir = "organizers") }}
