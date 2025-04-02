@@ -4,7 +4,6 @@ title = "Text-to-Text Regression"
 author = "Xingyou (Richard) Song"
 institution = "Google DeepMind"
 author_url = "https://xingyousong.github.io"
-highlight = true
 buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=J0-4hX0tAl4"}]
 +++
 
