@@ -4,7 +4,7 @@ title = "Accurate predictions on small data (and time series) with the tabular f
 author = "Frank Hutter"
 institution = "University of Freiburg"
 author_url = "https://ml.informatik.uni-freiburg.de/profile/hutter/"
-highlight = true
+highlight = false
 buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=SOXK7AJLOY4"}]
 +++
 
