@@ -4,7 +4,6 @@ title = "Exploring phenotypes and genotypes with a robot scientist"
 author = "Paul Jensen"
 institution = "University of Michigan"
 author_url = "http://jensenlab.net/"
-highlight = true
 buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=UJQ2JKM8SyM"}]
 +++
 
