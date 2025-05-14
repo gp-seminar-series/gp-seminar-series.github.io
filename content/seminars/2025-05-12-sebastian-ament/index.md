@@ -4,7 +4,7 @@ title = "Unexpected Improvements to Expected Improvement for Bayesian Optimizati
 author = "Sebastian Ament"
 institution = "Meta"
 author_url = "https://sebastianament.github.io"
-highlight = true
+buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=B71ONUFweN0"}]
 +++
 
 Expected Improvement (EI) is arguably the most popular acquisition function in Bayesian optimization and has found countless successful applications, but its performance is often exceeded by that of more recent methods. Notably, EI and its variants, including for the parallel and multi-objective settings, are challenging to optimize because their acquisition values vanish numerically in many regions. This difficulty generally increases as the number of observations, dimensionality of the search space, or the number of constraints grow, resulting in performance that is inconsistent across the literature and most often sub-optimal.
