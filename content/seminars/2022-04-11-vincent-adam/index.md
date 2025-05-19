@@ -4,7 +4,7 @@ title = "Dual Parameterization of Sparse Variational Gaussian Processes"
 author = "Vincent Adam"
 institution = "University Pompeu Fabra"
 author_url = "https://vincentadam87.github.io"
-buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=WpGnthzVoBA"}]
+video = "https://www.youtube.com/watch?v=WpGnthzVoBA"
 +++
 
 Sparse variational Gaussian process (SVGP) methods are a common choice for non-conjugate Gaussian process inference because of their computational benefits. In this talk, I will present a method to improve their computational efficiency by using a dual parameterization where each data example is assigned dual parameters, similarly to site parameters used in expectation propagation. Our dual parameterization speeds-up inference using natural gradient descent, and provides a tighter evidence lower bound for hyperparameter learning. The approach has the same memory cost as the current SVGP methods, but it is faster and more accurate. 

@@ -4,7 +4,7 @@ title = "Uncertain Surface Reconstruction"
 author = "Silvia Sellán"
 institution = "University of Toronto"
 author_url = "https://www.silviasellan.com"
-buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=zl7vZigG1FM"}]
+video = "https://www.youtube.com/watch?v=zl7vZigG1FM"
 +++
 
 Reconstructing a surface from a point cloud is a fundamentally underdetermined problem. We study different ways of incorporating this inherent uncertainty to the surface reconstruction problem. Specifically, we introduce a statistical extension of the classic Poisson Surface Reconstruction algorithm for recovering shapes from 3D point clouds. Instead of outputting an implicit function, we represent the reconstructed shape as a modified Gaussian Process, which allows us to conduct statistical queries (e.g., the likelihood of a point in space being on the surface or inside a solid). We show that this perspective improves PSR's integration into the online scanning process, broadens its application realm, and opens the door to other lines of research such as applying task-specific priors.

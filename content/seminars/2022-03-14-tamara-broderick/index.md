@@ -4,7 +4,7 @@ title = "Fast Discovery of Pairwise Interactions in High Dimensions using Gaussi
 author = "Tamara Broderick"
 institution = "MIT"
 author_url = "https://tamarabroderick.com"
-buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=2N6ozc3cUZo"}]
+video = "https://www.youtube.com/watch?v=2N6ozc3cUZo"
 +++
 
 Discovering interaction effects on a response of interest is

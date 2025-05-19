@@ -4,7 +4,7 @@ title = "Automated augmented conjugate inference for Gaussian processes and a Ju
 author = "Théo Galy-Fajou"
 institution = "Technische Universität Berlin"
 author_url = "https://theogf.github.io"
-buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=v2myelXvQmU"}]
+video = "https://www.youtube.com/watch?v=v2myelXvQmU"
 +++
 
 This talk is in two parts. First, I will talk about my work on augmented GPs for conjugate inference. Then, I will present the framework for GPs we are developing in Julia.

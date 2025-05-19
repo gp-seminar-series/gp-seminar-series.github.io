@@ -3,9 +3,9 @@ title = "On Modernising Sparse Gaussian Processes"
 [extra]
 author = "Yingzhen Li"
 institution = "Imperial College London"
-author_url = "http://yingzhenli.net/home/en//"
+author_url = "http://yingzhenli.net/home/en/"
 highlight = true
-buttons = [{name = "Video", url = "https://www.youtube.com/watch?v=VbGWDO2z9e0"}]
+video = "https://www.youtube.com/watch?v=VbGWDO2z9e0"
 +++
 
 Gaussian Processes (GPs) are widely used for probabilistic modelling tasks, e.g., Bayesian optimisation, spatial-temporal modelling, etc. Regarding efforts in introducing GPs to machine learning, sparse GPs are proposed since Snelson and Ghahramani (2005) to reduce the cubic computation complexity for posterior inference, and further developments have made them scale better to large-scale machine learning tasks. Efforts have also been made to bring GPs to the deep learning world, where notable works include deep kernel learning and deep GPs. However, state-of-the-art deep learning models have also progressed significantly, with new architectures based on attention and renovated recurrent neural networks. In this talk I will describe our published and on-going work to “modernise” sparse GPs based on the insights drawn from contemporary deep neural network architectures. Specifically, I’ll show (1) how to convert a standard Transformer architecture to a Deep GP, and (2) how to build a recurrent memory for online Sparse GP using the HiPPO framework (which motivates linear state-space models as a memory module for renovated RNNs). 
