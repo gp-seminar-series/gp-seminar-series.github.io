@@ -4,7 +4,6 @@ title = "On Modernising Sparse Gaussian Processes"
 author = "Yingzhen Li"
 institution = "Imperial College London"
 author_url = "http://yingzhenli.net/home/en/"
-highlight = true
 video = "https://www.youtube.com/watch?v=VbGWDO2z9e0"
 +++
 
