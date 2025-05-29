@@ -4,7 +4,6 @@ title = "Computation-Aware Kalman Filtering and Smoothing"
 author = "Marvin Pförtner"
 institution = "University of Tübingen"
 author_url = "https://marvinpfoertner.github.io/"
-highlight = true
 video = "https://www.youtube.com/watch?v=0tG2eJakvdU"
 +++
 
