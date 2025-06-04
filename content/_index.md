@@ -3,15 +3,6 @@ title = "Virtual Seminar Series on Bayesian Decision-making and Uncertainty"
 +++
 
 
-# Upcoming Seminar
-
-{{ highlights(section_name = "seminars") }}
-
-
-
-{{ new_block() }}
-
-
 # Seminars
 
 {{ list(section_name = "seminars") }}
