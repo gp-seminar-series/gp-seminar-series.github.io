@@ -17,17 +17,32 @@ title = "Virtual Seminar Series on Bayesian Decision-making and Uncertainty"
 
 {{ grid(
     text = [
-        ["Alexander Terenin","Cornell University"],
-        ["Natalie Maus","University of Pennsylvania"],
-        ["Renato Berlingheiri","MIT"],
-        ["Zi Wang","Google DeepMind"],
+        ["Kentaro Hoffman","University of Washington"],
+        ["Pooja Algikar","Argonne National Lab"],
+        ["Ruby Sedgwick","Xyme"],
+        ["Walter Virany","University of Toronto"],
     ],
     urls = [
-        "https://avt.im/",
-        "https://sites.google.com/seas.upenn.edu/natalie-maus/home/",
-        "https://renatoberlinghieri.github.io/",
-        "https://ziw.mit.edu/",
+        "https://khoffm4.github.io",
+        "https://apooja1.github.io",
+        "https://rsedgwick.github.io",
+        "https://wvirany.github.io",
     ],
     image_dir = "organizers") }}
 
 {{ button(name = "About", url = "about") }}
+
+
+{{ new_block() }}
+
+
+# Advisors
+
+{{ grid(
+    text = [
+        ["Alexander Terenin"],
+    ],
+    urls = [
+        "https://avt.im/",
+    ],
+    image_dir = "organizers") }}

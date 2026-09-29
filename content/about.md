@@ -17,16 +17,31 @@ Join our [mailing list](/instructions/) to learn more about virtual seminars and
 
 {{ grid(
     text = [
-        ["Alexander Terenin","Cornell University"],
-        ["Natalie Maus","University of Pennsylvania"],
-        ["Renato Berlingheiri","MIT"],
-        ["Zi Wang","Google DeepMind"],
+        ["Kentaro Hoffman","University of Washington"],
+        ["Pooja Algikar","Argonne National Lab"],
+        ["Ruby Sedgwick","Xyme"],
+        ["Walter Virany","University of Toronto"],
+    ],
+    urls = [
+        "https://khoffm4.github.io",
+        "https://apooja1.github.io",
+        "https://rsedgwick.github.io",
+        "https://wvirany.github.io",
+    ],
+    image_dir = "organizers") }}
+
+
+{{ new_block() }}
+
+
+# Advisors
+
+{{ grid(
+    text = [
+        ["Alexander Terenin"],
     ],
     urls = [
         "https://avt.im/",
-        "https://sites.google.com/seas.upenn.edu/natalie-maus/home/",
-        "https://renatoberlinghieri.github.io/",
-        "https://ziw.mit.edu/",
     ],
     image_dir = "organizers") }}
 
@@ -38,11 +53,19 @@ Join our [mailing list](/instructions/) to learn more about virtual seminars and
 
 {{ grid(
     text = [
-        ["Geoff Pleiss","Columbia University","2022-2023"],
+        ["Alexander Terenin", "Cornell University", "2022-2025"],
         ["Elizaveta Semenova","University of Oxford","2022-2023"],
+        ["Geoff Pleiss","Columbia University","2022-2023"],
+        ["Zi Wang","Google DeepMind", "2022-2025"],
+        ["Natalie Maus","University of Pennsylvania", "2024-2025"],
+        ["Renato Berlingheiri","MIT", "2024-2025"],
     ],
     urls = [
-        "https://geoffpleiss.com/",
+        "https://avt.im/",
         "https://www.elizaveta-semenova.com",
+        "https://geoffpleiss.com/",
+        "https://ziw.mit.edu/",
+        "https://sites.google.com/seas.upenn.edu/natalie-maus/home/",
+        "https://renatoberlinghieri.github.io/",
     ],
     image_dir = "organizers") }}

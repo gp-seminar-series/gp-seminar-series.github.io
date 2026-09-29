@@ -6,7 +6,6 @@ minify_html = true
 theme = "academic-workshop"
 
 [markdown]
-highlight_code = false
 smart_punctuation = true
 
 [extra]
