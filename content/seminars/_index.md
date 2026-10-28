@@ -8,4 +8,4 @@ list_page_limit = 100
 
 # Seminars
 
-{{ list(section_name = "seminars") }}
+{{ <list section_name="seminars" /> }}

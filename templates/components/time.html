@@ -1,0 +1,3 @@
+{% component time(@config) -%}
+{{ config.extra.title.subtitles | first | split(pat = ' · ') | nth(n = 2) }}
+{%- endcomponent time %}

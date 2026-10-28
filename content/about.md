@@ -10,62 +10,62 @@ In addition to virtual seminars, the seminar series has also led to the organizi
 Join our [mailing list](/instructions/) to learn more about virtual seminars and other upcoming events!
 
 
-{{ new_block() }}
+{{ <new_block /> }}
 
 
 # Current Organizers
 
-{{ grid(
-    text = [
+{{ <grid
+    text={[
         ["Kentaro Hoffman","University of Washington"],
         ["Pooja Algikar","Argonne National Lab"],
         ["Ruby Sedgwick","Xyme"],
         ["Walter Virany","University of Toronto"],
-    ],
-    urls = [
+    ]}
+    urls={[
         "https://khoffm4.github.io",
         "https://apooja1.github.io",
         "https://rsedgwick.github.io",
         "https://wvirany.github.io",
-    ],
-    image_dir = "organizers") }}
+    ]}
+    image_dir="organizers" /> }}
 
 
-{{ new_block() }}
+{{ <new_block /> }}
 
 
 # Advisors
 
-{{ grid(
-    text = [
+{{ <grid
+    text={[
         ["Alexander Terenin"],
-    ],
-    urls = [
+    ]}
+    urls={[
         "https://avt.im/",
-    ],
-    image_dir = "organizers") }}
+    ]}
+    image_dir="organizers" /> }}
 
 
-{{ new_block() }}
+{{ <new_block /> }}
 
 
 # Alumni
 
-{{ grid(
-    text = [
+{{ <grid
+    text={[
         ["Alexander Terenin", "Cornell University", "2022-2025"],
         ["Elizaveta Semenova","University of Oxford","2022-2023"],
         ["Geoff Pleiss","Columbia University","2022-2023"],
         ["Zi Wang","Google DeepMind", "2022-2025"],
         ["Natalie Maus","University of Pennsylvania", "2024-2025"],
         ["Renato Berlingheiri","MIT", "2024-2025"],
-    ],
-    urls = [
+    ]}
+    urls={[
         "https://avt.im/",
         "https://www.elizaveta-semenova.com",
         "https://geoffpleiss.com/",
         "https://ziw.mit.edu/",
         "https://sites.google.com/seas.upenn.edu/natalie-maus/home/",
         "https://renatoberlinghieri.github.io/",
-    ],
-    image_dir = "organizers") }}
+    ]}
+    image_dir="organizers" /> }}

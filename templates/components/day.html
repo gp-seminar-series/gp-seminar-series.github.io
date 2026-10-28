@@ -1,0 +1,3 @@
+{% component day(@config) -%}
+{{ config.extra.title.subtitles | first | split(pat = ' · ') | nth(n = 0) }}
+{%- endcomponent day %}
